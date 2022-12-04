@@ -135,6 +135,14 @@ class _HomeScreenState extends State<HomeScreen> {
                     painter: _MagicCustomPainter(magicArrows: magicArrows, magicBoxes: magicBoxes, selectedArrow: selectedArrow),
                   ),
                 ),
+                const Positioned(
+                    top: 20,
+                    right: 20,
+                    child: Text("Click on line to adjust reference points",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 15),)),
+                const Positioned(
+                    bottom: 20,
+                    right: 20,
+                    child: Text("@retroportalstudio",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 20),))
               ],
             ),
           ),
